@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Nigh/Genshin-fishing",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "description": "Genshin auto fishing",
     "checkver": "github",
     "shortcuts": [
@@ -9,8 +9,8 @@
             "Genshin Fishing"
         ]
     ],
-    "url": "https://github.com/Nigh/Genshin-fishing/releases/download/v0.2.1/GenshinFishing.zip",
-    "hash": "ed87cd8ea4955a9f5358bc6f18141fb569e83846c958768175adcd4c91d96ae4",
+    "url": "https://github.com/Nigh/Genshin-fishing/releases/download/v0.2.3/GenshinFishing.zip",
+    "hash": "6e017c76c9eb9d1454436c036ffceee204d8111e7a71d5c6b1bc2556b4fbd399",
     "autoupdate": {
         "url": "https://github.com/Nigh/Genshin-fishing/releases/download/v$version/GenshinFishing.zip"
     }
