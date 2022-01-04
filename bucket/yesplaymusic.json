@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/qier222/YesPlayMusic",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux",
     "checkver": "github",
     "license": "MIT",
@@ -19,8 +19,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.2/YesPlayMusic-Setup-0.4.2.exe#/dl.7z",
-            "hash": "e5eb5ada6dd8feb638875fa9d6763daa94bfedb28861af239fa9a6638f667882",
+            "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.3/YesPlayMusic-Setup-0.4.3.exe#/dl.7z",
+            "hash": "90fbf3467f5d064fe0eb0d381ea477aaf29c32d90a99b51408b8dfd16fd76d23",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
