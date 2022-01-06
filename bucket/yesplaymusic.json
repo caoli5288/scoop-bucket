@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/caoli5288/Scoop/master/schema.json",
     "homepage": "https://github.com/qier222/YesPlayMusic",
     "version": "0.4.3",
     "description": "高颜值的第三方网易云播放器，支持 Windows / macOS / Linux",
@@ -7,7 +8,7 @@
     "shortcuts": [
         [
             "YesPlayMusic.exe",
-            "Yes Play Music"
+            "YesPlayMusic"
         ]
     ],
     "autoupdate": {
