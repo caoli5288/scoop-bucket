@@ -2,7 +2,7 @@
     "homepage": "https://github.com/nihui/realcugan-ncnn-vulkan",
     "description": "real-cugan converter ncnn version, runs fast on intel / amd / nvidia GPU with vulkan",
     "license": "MIT",
-    "version": "20220215",
+    "version": "20220216",
     "checkver": "github",
     "bin": [
         [
@@ -12,9 +12,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nihui/realcugan-ncnn-vulkan/releases/download/20220215/realcugan-ncnn-vulkan-20220215-windows.zip",
-            "hash": "27d92f9ac60426a5866d29961cdec3cc349ddaeb44bf18569bfc77cfa74d1a6f",
-            "extract_dir": "realcugan-ncnn-vulkan-20220215-windows"
+            "url": "https://github.com/nihui/realcugan-ncnn-vulkan/releases/download/20220216/realcugan-ncnn-vulkan-20220216-windows.zip",
+            "hash": "0ace094dc04a914452e12a07a6b1c3fd7d61014a71220e319c95b81b44db0484",
+            "extract_dir": "realcugan-ncnn-vulkan-20220216-windows"
         }
     },
     "autoupdate": {
