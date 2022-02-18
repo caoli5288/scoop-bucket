@@ -1,16 +1,15 @@
 on:
+  workflow_dispatch:
   schedule:
-  - cron: '0 6 * * *'
-name: Excavator
+    # run every 4 hours
+    - cron: '0 */6 * * *'
+name: auto_update
 jobs:
   excavate:
-    name: Excavate
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
+    - uses: actions/checkout@main
+    - uses: ScoopInstaller/GithubActions@main
       env:
-        GITH_EMAIL: caoli5288@gmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
