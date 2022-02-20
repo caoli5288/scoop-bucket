@@ -4,10 +4,10 @@
     "license": "Public Domain",
     "version": "0.1.7",
     "bin": "yas.exe",
-    "url": "https://github.com/wormtql/yas/releases/download/v0.1.7/yas_v0.1.7.exe",
+    "url": "https://github.com/wormtql/yas/releases/download/v0.1.7/yas_v0.1.7.exe#/yas.exe",
     "hash": "c62190e22032babd7022908d79e13ee913775b21dc3eda0fa80510842bdc4b8b",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v$version.exe"
+        "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v$version.exe#/yas.exe"
     }
 }
