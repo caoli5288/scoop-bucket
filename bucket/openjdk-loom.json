@@ -1,0 +1,33 @@
+{
+    "version": "19-loom-115",
+    "description": "Project Loom Early-Access Builds",
+    "homepage": "http://jdk.java.net/loom/",
+    "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.java.net/java/early_access/loom/4/openjdk-19-loom+4-115_windows-x64_bin.zip",
+            "hash": "e8116c69dadd519b0c60926924615aa06b79da46ed479e8607f22892f7a40cb5"
+        }
+    },
+    "extract_dir": "jdk-19",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "re": "openjdk-(?<jdk>\\d+)-loom\\+(?<version>[\\d.]+)-(?<ci>\\d+)_windows-x64_bin",
+        "replace": "${jdk}-loom-${ci}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.java.net/java/early_access/loom/$matchVersion/openjdk-$matchJdk-loom+$matchVersion-$matchCi_windows-x64_bin.zip",
+                "hash": {
+                    "url": "https://download.java.net/java/early_access/loom/$matchVersion/openjdk-$matchJdk-loom+$matchVersion-$matchCi_windows-x64_bin.zip.sha256",
+                    "mode": "extract"
+                }
+            }
+        },
+        "extract_dir": "jdk-$matchJdk"
+    }
+}
