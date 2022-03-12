@@ -2,7 +2,7 @@
     "homepage": "https://github.com/multiprocessio/dsq",
     "description": "Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.",
     "license": "Apache-2.0",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "bin": "dsq.exe",
     "checkver": "github",
     "autoupdate": {
@@ -14,8 +14,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/multiprocessio/dsq/releases/download/0.6.0/dsq-win32-x64-0.6.0.zip",
-            "hash": "dfcdcb45e3b52dcbe0964f7afb6a91e6814585296a20c2ced7c9938204a2448a"
+            "url": "https://github.com/multiprocessio/dsq/releases/download/0.7.0/dsq-win32-x64-0.7.0.zip",
+            "hash": "17805eab6b4d0d6bf885b4cbfbd6eb35dbb962b6b3d9ca58702fc856dd91ebc7"
         }
     }
 }
