@@ -1,0 +1,38 @@
+{
+    "version": "2.1.5",
+    "description": "Apifox = Postman + Swagger + Mock + JMeter",
+    "homepage": "https://www.apifox.cn/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://cdn.apifox.cn/download/2.1.5/Apifox-2.1.5.exe#/dl.7z",
+            "hash": "sha512:08fcd8308e4cfe05d3ad6d59e954da91497b4778cfc381c24ccaa01056e895a923e6b87625eb1177d2e46fdfb7026c61ca1e9650288e85bd3a8fe0316df09916",
+            "pre_install":[
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "Apifox.exe",
+            "Apifox"
+        ]
+    ],
+    "checkver": {
+        "url": "http://cdn.apifox.cn/download/latest.yml",
+        "regex": "(?sm)version:[\\s]+([\\d.]+).*?http://(?<url>.*?\\.exe)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://$matchUrl#/dl.7z",
+                "hash": {
+                    "url": "http://cdn.apifox.cn/download/latest.yml",
+                    "mode": "extract",
+                    "regex": "sha512.*?$base64"
+                }
+            }
+        }
+    }
+}
