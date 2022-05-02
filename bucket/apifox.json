@@ -1,12 +1,12 @@
 {
-    "version": "2.1.11",
+    "version": "2.1.13",
     "description": "Apifox = Postman + Swagger + Mock + JMeter",
     "homepage": "https://www.apifox.cn/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://cdn.apifox.cn/download/2.1.11/Apifox-2.1.11.exe#/dl.7z",
-            "hash": "sha512:efea60263a8553876fb7d376ae8b055e8b7fe1150fe7248311a293fda1bf78916a05a6c7ea99af9e2ee690361499cd36fa80047440c60a046c49b771455a6f2f",
+            "url": "http://cdn.apifox.cn/download/2.1.13/Apifox-2.1.13.exe#/dl.7z",
+            "hash": "sha512:f1b149e225b7fd885a00937977ffd293084ead16b4691cee429b8136b243661b074e9528b30d605fe5aee307bbb501ef09d485d675aeb594dd47d0d8fb4bda33",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
