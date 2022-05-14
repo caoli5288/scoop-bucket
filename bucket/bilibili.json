@@ -1,0 +1,22 @@
+{
+    "homepage": "https://app.bilibili.com/",
+    "license": "Freeware",
+    "version": "1.1.1",
+    "description": "哔哩哔哩桌面客户端",
+    "shortcuts": [
+        [
+            "哔哩哔哩.exe",
+            "哔哩哔哩"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
+            "hash": "5d5d86963f5a922ce5f616159e0d5705602aa39c7520dc8a5f0f020adb74a3da",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        }
+    }
+}
