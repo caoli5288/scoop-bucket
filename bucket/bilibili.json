@@ -1,7 +1,7 @@
 {
     "homepage": "https://app.bilibili.com/",
     "license": "Freeware",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "哔哩哔哩桌面客户端",
     "shortcuts": [
         [
@@ -12,11 +12,26 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
-            "hash": "96718413342daca81b375a80fc996fa1ab19fc199c73bd9002eb32eccdbbb35f",
+            "hash": "sha512:411b4114a1643028bc13a3fd2d5734950f063f4d140bdb6e895191fcc4617add5707e41fdc97c561cd79f68baf6125626931427ae237b043e5d4a2350b88207d",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
             ]
+        }
+    },
+    "checkver": {
+        "url": "http://api.bilibili.com/x/elec-frontend/update/latest.yml",
+        "re": "bilibili-setup-v(.+)\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
+                "hash": {
+                    "url": "http://api.bilibili.com/x/elec-frontend/update/latest.yml",
+                    "regex": "sha512: (.+==)"
+                }
+            }
         }
     }
 }
