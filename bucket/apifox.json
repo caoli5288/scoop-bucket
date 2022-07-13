@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "http://cdn.apifox.cn/download/2.1.27/Apifox-2.1.27.exe#/dl.7z",
-            "hash": "sha512:5219bb710a1a6973d7da65b685d02706680aedeef1ec3e4d91aba327a3abe1c4dfe09b015df1d6b75daceea4905c099aede7e103ce7b50b8724a0c141fb6e7be",
+            "hash": "sha512:da9ac223230bb1ca4228f650c435ccea2e265041da6250cdcae74193ef33d138fc36df0861bac3715a8d5029135f4e52b366abe39dbb54d4bea753c498098745",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
