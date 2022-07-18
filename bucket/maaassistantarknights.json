@@ -25,6 +25,6 @@
         "github": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
     },
     "autoupdate": {
-        "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MeoAssistantArknights_v$version.zip"
+        "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v$version/MaaBundle-v$version.zip"
     }
 }
