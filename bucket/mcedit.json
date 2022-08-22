@@ -1,0 +1,25 @@
+{
+    "version": "1.5.6.0",
+    "description": "World editor for Minecraft",
+    "homepage": "http://www.mcedit.net/",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/Podshot/MCEdit-Unified/releases/download/1.5.6.0/MCEdit.v1.5.6.0.Win.32bit.exe#/dl.7z",
+            "hash": "",
+            "extract_dir": "mcedit"
+        },
+        "64bit": {
+            "url": "https://github.com/Podshot/MCEdit-Unified/releases/download/1.5.6.0/MCEdit.v1.5.6.0.Win.64bit.exe#/dl.7z",
+            "hash": "5362d2e94f15aed01d07ce7e4a04010cf32b019cd084c2c55f0dc8c3761def90",
+            "extract_dir": "mcedit"
+        }
+    },
+    "bin": "mcedit.exe",
+    "shortcuts": [
+        [
+            "mcedit.exe",
+            "MCEdit"
+        ]
+    ]
+}
