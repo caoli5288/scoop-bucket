@@ -1,7 +1,7 @@
 {
     "homepage": "https://app.bilibili.com/",
     "license": "Freeware",
-    "version": "1.8.2",
+    "version": "1.9.0",
     "description": "哔哩哔哩桌面客户端",
     "shortcuts": [
         [
@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
-            "hash": "sha512:db840f13e77a6f0371ad07b79d71e91c7c31113165f4a4a2f4377ba7fe19c11739b08cbefc1402d28d61480491a1b924fbf77f1145b7e672423588e1977e2092",
+            "hash": "sha512:0319731c79e0454d0aa8d7c12fc23f46661036b146c1593dc993ec3627fd0698e5674031df856d9c640fd67dbd589793f4467c50f238938ff625fece9fdc66fa",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
