@@ -5,11 +5,6 @@
     "license": "AGPL-3.0",
     "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/download/v4.10.5/MAA-v4.10.5-win-x64.zip",
     "hash": "c2d9ff566d2ca151180b85b9156817551f18d8652faa779b26c032e1514548db",
-    "pre_install": [
-        "if (!(Test-Path -Path \"$dir\\gui.json\" -PathType leaf)) {",
-        "   New-Item -ItemType file -Path \"$dir\\gui.json\" | Out-Null",
-        "}"
-    ],
     "bin": "MAA.exe",
     "shortcuts": [
         [
@@ -18,8 +13,8 @@
         ]
     ],
     "persist": [
-        "map",
-        "gui.json"
+        "config",
+        "debug"
     ],
     "checkver": {
         "github": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
