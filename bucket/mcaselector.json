@@ -1,5 +1,5 @@
 {
-    "version": "2.1",
+    "version": "2.2",
     "description": "A tool to select chunks from Minecraft worlds for deletion or export",
     "homepage": "https://github.com/Querz/mcaselector",
     "license": "MIT",
@@ -9,8 +9,8 @@
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/Querz/mcaselector/releases/download/2.1/mcaselector-2.1.jar#/mcaselector.jar",
-    "hash": "e9bc99de41fe88b02fd8d67633332fc2527f445364e239784674f64b40adbbdd",
+    "url": "https://github.com/Querz/mcaselector/releases/download/2.2/mcaselector-2.2.jar#/mcaselector.jar",
+    "hash": "549b099f4f3026147afdf871e764427955be443f37f95f924c130f76d907d166",
     "pre_install": "Set-Content \"$dir\\mcaselector.bat\" '@start javaw.exe -jar \"%~dp0mcaselector.jar\" %*' -Encoding Ascii",
     "bin": "mcaselector.jar",
     "shortcuts": [
