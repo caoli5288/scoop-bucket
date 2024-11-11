@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/BornToBeRoot/NETworkManager",
-    "version": "2024.6.15.0",
+    "version": "2024.11.11.0",
     "license": "GPLv3",
     "description": "A powerful tool for managing networks and troubleshoot network problems",
     "checkver": "github",
@@ -10,8 +10,8 @@
             "NETworkManager"
         ]
     ],
-    "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2024.6.15.0/NETworkManager_2024.6.15.0_Portable.zip",
-    "hash": "2dc069d3ed82811b3fef0fe00956aa53f6153f233a3ae08df42104bb2befad97",
+    "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2024.11.11.0/NETworkManager_2024.11.11.0_Portable.zip",
+    "hash": "1d0c419c71103038397f3a0e14914b3db1194164153448bfe57e261d093d7d55",
     "extract_dir": "NETworkManager",
     "autoupdate": {
         "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
