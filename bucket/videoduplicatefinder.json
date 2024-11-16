@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/0x90d/videoduplicatefinder",
-    "version": "3.0-rc.3",
+    "version": "3.0.0-git",
     "description": "Video Duplicate Finder is a cross-platform software to find duplicated video (and image) files on hard disk based on similiarity",
     "checkver": "github",
     "shortcuts": [
@@ -10,25 +10,13 @@
         ]
     ],
     "url": "https://github.com/0x90d/videoduplicatefinder/releases/download/3.0.x/App-win-x64.zip",
-    "hash": "71f9fb7fa77b33bde903f3eba5a9da02e0646a3f9f858972118d0158be39a465",
+    "hash": "436c6c67a88ccfb8c7b83035254160b729bc6e6e5a100b49e625ac0eeb5af17e",
     "persist": [
-        "backup.scanresults",
-        "Settings.xml",
-        "log.txt",
-        "ScannedFiles.db"
+        "Settings.json"
     ],
     "pre_install": [
-        "if (!(test-path \"$dir\\backup.scanresults\")) {",
-        "add-content -value \"[]\" -path \"$dir\\backup.scanresults\"",
-        "}",
-        "if (!(test-path \"$dir\\Settings.xml\")) {",
-        "add-content -value \"<Settings></Settings>\" -path \"$dir\\Settings.xml\"",
-        "}",
-        "if (!(test-path \"$dir\\log.txt\")) {",
-        "new-item \"$dir\\log.txt\" | out-null",
-        "}",
-        "if (!(test-path \"$dir\\ScannedFiles.db\")) {",
-        "new-item \"$dir\\ScannedFiles.db\" | out-null",
+        "if (!(test-path \"$dir\\Settings.json\")) {",
+        "add-content -value \"{}\" -path \"$dir\\Settings.json\"",
         "}"
     ]
 }
