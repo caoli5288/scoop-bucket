@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v6.10.3/LunaTranslator.zip",
-            "hash": "739e60fd530269935e2f6d86709604a66b228f055d1e03cc929233c2dbc8d61b",
+            "hash": "d5352ad8a8414a10217ebbecf259ce75ab0ec777afe00f49e795b81ff926a0c3",
             "pre_install": [
                 "Rename-Item -Path \"$($dir)\\LunaTranslator\" -NewName \"dir\" -Force",
                 "Get-ChildItem -Path \"$($dir)\\dir\" -Recurse | ForEach-Object { Move-Item -Path $_.FullName -Destination \"$($dir)\\$($_.Name)\" -Force }",
@@ -16,7 +16,7 @@
         "32bit": {
             "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v6.10.3/LunaTranslator_x86.zip",
             "extract_dir": "LunaTranslator_x86",
-            "hash": "3db9e441814d42a8ed8aebaad4cd87efa8053890897ccc45cff048ab2147447b"
+            "hash": "816b41b0d9873c614d67953141be998c5c6124427e07b698f385b789ac8c5e45"
         }
     },
     "shortcuts": [
