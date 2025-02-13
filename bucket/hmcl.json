@@ -1,9 +1,9 @@
 {
-    "homepage": "https://github.com/huanghongxun/HMCL",
+    "homepage": "https://github.com/HMCL-dev/HMCL",
     "description": " A Minecraft Launcher which is multi-functional, cross-platform and popular",
     "license": "GPL-3.0-only",
     "version": "3.5.9.263",
-    "url": "https://github.com/huanghongxun/HMCL/releases/download/v3.5.9.263/HMCL-3.5.9.263.exe#/HMCL.exe",
+    "url": "https://github.com/HMCL-dev/HMCL/releases/download/v3.5.9.263/HMCL-3.5.9.263.exe#/HMCL.exe",
     "hash": "sha1:f2d2b757a9b86f3839ee6993f44e54a2ea340040",
     "suggest": {
         "JDK": "java/openjdk"
@@ -19,11 +19,14 @@
         ".minecraft",
         "hmcl.json"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/HMCL-dev/HMCL",
+        "re": "/releases/tag/release-([\\d.]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/huanghongxun/HMCL/releases/download/v$version/HMCL-$version.exe#/HMCL.exe",
+        "url": "https://github.com/HMCL-dev/HMCL/releases/download/v$version/HMCL-$version.exe#/HMCL.exe",
         "hash": {
-            "url": "https://github.com/huanghongxun/HMCL/releases/download/v3.5.2.218/HMCL-3.5.2.218.exe.sha1"
+            "url": "https://github.com/HMCL-dev/HMCL/releases/download/v3.5.2.218/HMCL-3.5.2.218.exe.sha1"
         }
     }
 }

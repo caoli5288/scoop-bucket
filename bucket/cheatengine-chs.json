@@ -16,8 +16,8 @@
         ]
     ],
     "checkver": {
-        "github": "http://www.j9p.com/down/527515.html",
-        "regex": "Cheat Engine([\\d.]+)绿"
+        "url": "http://www.j9p.com/soft/527515.html",
+        "regex": "Cheat Engine([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://jxz2.tqqyun.com/pc/cheatengine.zip"
