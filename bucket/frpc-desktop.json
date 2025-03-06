@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/luckjiawei/frpc-desktop",
     "license": "MIT",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "description": "A frpc Desktop application",
     "suggest": {
         "main": "frp"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v1.1.6/Frpc-Desktop-1.1.6-win.zip",
-            "hash": "14f5297a70428046034589287d6aeb368323b6ffdad0302ca6dc7b695230f0d6",
+            "url": "https://github.com/luckjiawei/frpc-desktop/releases/download/v1.2.0/Frpc-Desktop-1.2.0-win.zip",
+            "hash": "a0ab62bc8ef8d6e946798680cf93acaeae1c16b4b9cc5fb926a7567e8403bf69",
             "shortcuts": [
                 [
                     "Frpc-Desktop.exe",
