@@ -1,12 +1,12 @@
 {
-    "version": "7.23.2.1",
+    "version": "7.23.2.2",
     "description": "Galgame翻译器，支持HOOK、OCR、剪贴板等。Visual Novel Translator , support HOOK / OCR / clipboard",
     "homepage": "https://github.com/HIllya51/LunaTranslator",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.23.2.1/LunaTranslator.zip",
-            "hash": "0a5b51df3238e90ce2c48e77324ab5c09384975f6c85577700f736297acef242",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.23.2.2/LunaTranslator.zip",
+            "hash": "7951e5db4bb64f1b8ff78628cba88a8169351032f75d7efe8331449a6cd77fa7",
             "pre_install": [
                 "Rename-Item -Path \"$($dir)\\LunaTranslator\" -NewName \"dir\" -Force",
                 "Get-ChildItem -Path \"$($dir)\\dir\" -Recurse | ForEach-Object { Move-Item -Path $_.FullName -Destination \"$($dir)\\$($_.Name)\" -Force }",
@@ -14,9 +14,9 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.23.2.1/LunaTranslator_x86.zip",
+            "url": "https://github.com/HIllya51/LunaTranslator/releases/download/v7.23.2.2/LunaTranslator_x86.zip",
             "extract_dir": "LunaTranslator_x86",
-            "hash": "245880378fa4a648f76a8b16a2f67044f29f5716df13a62fb6600e62f9b53b99"
+            "hash": "98ead576e6932d63ac226f468ffbea9c8efdd8ecca3727168488814ec0ff9ebe"
         }
     },
     "shortcuts": [
