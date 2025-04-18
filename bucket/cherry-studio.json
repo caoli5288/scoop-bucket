@@ -5,7 +5,7 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.2.4/Cherry-Studio-1.2.4-setup.exe#/dl.7z",
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.2.4/Cherry-Studio-1.2.4-x64-setup.exe#/dl.7z",
             "hash": "sha512:4a687fbb8dab4dbcc121eec9a26446370125a8769768e5566f17dae40dd82dd6db0c74d392c30b384ebeb99f2c31a2080137298d46a58475eb7d5f4344622d66",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-setup.exe#/dl.7z",
+                "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-setup.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/latest.yml",
                     "regex": "sha512: ([a-zA-Z0-9+/=]+)"
