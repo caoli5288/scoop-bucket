@@ -1,12 +1,12 @@
 {
-    "version": "2.11.7",
+    "version": "2.11.8",
     "description": "基于 PCL2 开源代码二次开发的社区版本，包括了主线暂未制作的功能和改进！",
     "homepage": "https://github.com/PCL-Community/PCL2-CE",
     "license": "All Rights Reserved",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.7/PCL2_CE_Release_x64.exe",
-            "hash": "fce84ebc22bba551d01324882ee416c6c97bd3d309c28a8f1f20d47d2490ce16",
+            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.8/PCL2_CE_Release_x64.exe",
+            "hash": "503371de100f1585fa85e348fc99cd9b504005fa369148e30c2da4f3c4055f8e",
             "shortcuts": [
                 [
                     "PCL2_CE_Release_x64.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.7/PCL2_CE_Release_ARM64.exe",
-            "hash": "705f3b24d9db653eeef30b70527dbf73183f55d241fda434412d9949d9486c19",
+            "url": "https://github.com/PCL-Community/PCL2-CE/releases/download/2.11.8/PCL2_CE_Release_ARM64.exe",
+            "hash": "7a8ec8642182d0f579d7568c7aaf9f71c3a3c6ee4787f1f6c80f3602b9b85dc3",
             "shortcuts": [
                 [
                     "PCL2_CE_Release_ARM64.exe",
