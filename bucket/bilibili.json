@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.hdslb.com/mobile/fixed/bili_win/bili_win-install.exe#/dl.7z",
-            "hash": "sha512:91da803ee4d24b6aeb56d5522be29311396cd2a85d9439f59a767f28d71e8c7acaf43164247a2f5bfd26ba9b5116e9c97fabe1dfa00702a73c1d5ef3dddec81f",
+            "hash": "sha512:2e9989abe4939a40c1a0477d5a3f6c784fee2fb0a85adf3ecba8c20649032390da2b2d68e2035999413338e5f85f8652cc4f2a7d6dec9d278a1d8f143421c064",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Recurse"
