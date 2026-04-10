@@ -1,5 +1,5 @@
 {
-    "version": "26.2",
+    "version": "26.3",
     "description": "Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.",
     "homepage": "https://mobaxterm.mobatek.net/",
     "license": {
@@ -7,11 +7,11 @@
         "url": "https://mobaxterm.mobatek.net/license.html"
     },
     "url": [
-        "https://download.mobatek.net/2622026032581854/MobaXterm_Portable_v26.2.zip",
+        "https://download.mobatek.net/2632026040882303/MobaXterm_Portable_v26.3.zip",
         "https://raw.githubusercontent.com/caoli5288/scoop-bucket/master/scripts/mobaxterm/MobaXterm-Keygen.py"
     ],
     "hash": [
-        "be0db1b681a42040333b6a8506856114b68c5b788e7653afb5768762e2f49107",
+        "e235e98f6695e18db451d33ebc6d75223c9917147f4b2e9f7d0988e50d21cbf4",
         "be1d05c93841963e184cc459e87c24b39af08fd96abcd2af980cbc588aa844cc"
     ],
     "pre_install": [
