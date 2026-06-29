@@ -1,10 +1,10 @@
 {
-    "version": "9.5.7",
+    "version": "9.6.0",
     "description": "TagStudio",
     "homepage": "https://github.com/TagStudioDev/TagStudio",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/TagStudioDev/TagStudio/releases/download/v9.5.7/tagstudio_windows_x86_64.zip",
-    "hash": "504b6fa525ea6b678293552593328e245eca364ff330b59ee8a419689c187f52",
+    "url": "https://github.com/TagStudioDev/TagStudio/releases/download/v9.6.0/tagstudio_windows_x86_64.zip",
+    "hash": "721cf0204910bacaaa6db224b6579b0083d8392ed2a0124a96ca8369f3353e82",
     "extract_dir": "TagStudio",
     "shortcuts": [
         [
